@@ -1,0 +1,45 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "啾啾.moc3",
+		"Textures": [
+			"啾啾.4096/texture_00.png"
+		],
+		"Physics": "啾啾.physics3.json",
+		"DisplayInfo": "啾啾.cdi3.json",
+		"Expressions": [
+			{
+				"Name": "expression1",
+				"File": "expression1.exp3.json"
+			},
+			{
+				"Name": "expression2",
+				"File": "expression2.exp3.json"
+			},
+			{
+				"Name": "expression3",
+				"File": "expression3.exp3.json"
+			},
+			{
+				"Name": "expression4",
+				"File": "expression4.exp3.json"
+			}
+		]
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": [
+				"ParamEyeLOpen",
+				"ParamEyeROpen"
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": []
+		}
+	],
+	"HitAreas": []
+}
